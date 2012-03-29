@@ -1,0 +1,44 @@
+2012-03-27 23:17:44,625 [5] INFO  NHibernate.Cfg.Environment - NHibernate 3.0.0.2001 (3.0.0.2001)
+2012-03-27 23:17:44,634 [5] INFO  NHibernate.Cfg.Environment - hibernate-configuration section not found in application configuration file
+2012-03-27 23:17:44,634 [5] INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2012-03-27 23:17:44,636 [5] INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2012-03-27 23:17:45,512 [5] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2012-03-27 23:17:45,560 [5] INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: Core.Visitor -> Visitor
+2012-03-27 23:17:45,621 [5] INFO  NHibernate.Cfg.Configuration - checking mappings queue
+2012-03-27 23:17:45,622 [5] INFO  NHibernate.Cfg.Configuration - processing one-to-many association mappings
+2012-03-27 23:17:45,622 [5] INFO  NHibernate.Cfg.Configuration - processing one-to-one association property references
+2012-03-27 23:17:45,622 [5] INFO  NHibernate.Cfg.Configuration - processing foreign key constraints
+2012-03-27 23:17:45,623 [5] INFO  NHibernate.Cfg.Configuration - processing filters (second pass)
+2012-03-27 23:17:45,639 [5] INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MsSql2005Dialect
+2012-03-27 23:17:45,656 [5] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory - Using dialect defined converter
+2012-03-27 23:17:45,656 [5] INFO  NHibernate.Cfg.SettingsFactory - Generate SQL with comments: disabled
+2012-03-27 23:17:45,658 [5] INFO  NHibernate.Connection.ConnectionProvider - Configuring ConnectionProvider
+2012-03-27 23:17:45,659 [5] INFO  NHibernate.Cfg.SettingsFactory - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-03-27 23:17:45,661 [5] INFO  NHibernate.Cfg.SettingsFactory - Optimize cache for minimal puts: False
+2012-03-27 23:17:45,661 [5] INFO  NHibernate.Cfg.SettingsFactory - Connection release mode: auto
+2012-03-27 23:17:45,661 [5] INFO  NHibernate.Cfg.SettingsFactory - Default batch fetch size: 1
+2012-03-27 23:17:45,661 [5] INFO  NHibernate.Cfg.SettingsFactory - Statistics: disabled
+2012-03-27 23:17:45,661 [5] INFO  NHibernate.Cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+2012-03-27 23:17:45,662 [5] INFO  NHibernate.Cfg.SettingsFactory - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-03-27 23:17:45,663 [5] INFO  NHibernate.Cfg.SettingsFactory - Query language substitutions: {}
+2012-03-27 23:17:45,664 [5] INFO  NHibernate.Cfg.SettingsFactory - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-03-27 23:17:45,666 [5] INFO  NHibernate.Cfg.SettingsFactory - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.0.0.2001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-03-27 23:17:45,666 [5] INFO  NHibernate.Cfg.SettingsFactory - Default entity-mode: Poco
+2012-03-27 23:17:45,666 [5] INFO  NHibernate.Cfg.SettingsFactory - Named query checking : enabled
+2012-03-27 23:17:45,683 [5] INFO  NHibernate.Impl.SessionFactoryImpl - building session factory
+2012-03-27 23:17:45,858 [5] INFO  NHibernate.Impl.SessionFactoryObjectFactory - no name configured
+2012-03-27 23:17:46,317 [5] INFO  NHibernate.Hql.Ast.ANTLR.Tree.FromElement - handling property dereference [Core.Visitor (v) -> VisitDate (Class)]
+2012-03-27 23:17:46,417 [5] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:18:09,603 [12] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:18:10,204 [12] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:18:11,582 [14] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:18:56,502 [5] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:19:09,746 [8] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:19:51,976 [7] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:19:55,827 [16] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:19:58,437 [6] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:19:59,760 [5] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:20:00,846 [13] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:20:03,620 [17] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:20:04,663 [16] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc
+2012-03-27 23:20:13,033 [7] INFO  NHibernate.Loader.Loader - select TOP (@p0) visitor0_.Id as Id0_, visitor0_.PathAndQuerystring as PathAndQ2_0_, visitor0_.LoginName as LoginName0_, visitor0_.Browser as Browser0_, visitor0_.VisitDate as VisitDate0_, visitor0_.IpAddress as IpAddress0_ from Visitor visitor0_ order by visitor0_.VisitDate desc

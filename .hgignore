@@ -1,0 +1,33 @@
+syntax: glob
+*.orig
+*.suo
+*.user
+bin
+!/bin
+obj
+_ReSharper*
+*.csproj.user
+*.resharper.user
+*.suo
+*.cache
+TestResult.xml
+*.trx
+~$*.doc
+~$*.docx
+__MVC_BACKUP*/*
+Backup*/*
+_*Upgrade*/*
+UpgradeLog.XML
+__MVC_BACKUP
+_UpgradeReport_Files
+*.tmp
+*.pdf
+*.sdf
+src4/Chapter 4/TestResults
+*.ReSharper
+manuscript/figures/ch02.zip
+manuscript/figures/ch04.zip
+glob:manuscript/figures/ch07.zip
+manuscript/figures/ch09.zip
+manuscript/figures/ch15.zip
+manuscript/figures/ch18.zip
